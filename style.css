@@ -1,0 +1,324 @@
+/*
+Theme Name: i.james.jones
+Theme URI: http://ijamesjones.com
+Description: A custom theme for wordpress for i.james.jones
+Author: Jose Platero @thejoseplatero www.joseplatero.com
+Version: 0.1
+*/
+
+/* start set up * / 
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* end set up */
+
+      /* First we do all of our regular CSS for the basics and desktop site */
+      body {
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.2em;
+        color:black;
+    /*   background: url(images/gplaypattern.png);*/
+
+      }
+
+      h2{
+        font-size: 28px;
+      }
+
+      .wrapper{
+        width:100%;
+        background: #f2f2f2;
+        position: relative;
+      
+
+      }
+
+      .header{
+        min-height: 800px;
+        width:100%;
+        background: url(images/ian2.jpg) no-repeat center;
+        background-size: cover;
+        background-position: top;
+        margin: 0 auto;
+
+      }
+
+      .contentWrapper{
+        padding-top: 10%;
+
+      }
+
+      .content{
+          margin:4% 0;
+      }
+
+      a{
+        text-decoration: none;
+         color:#182d3b;
+      }
+
+      .nav{
+        width:100%;
+        overflow: hidden;
+        background: white;
+        position:fixed;       
+        box-shadow: 0px 0px 3px rgba(7,7,7,0.8);
+        z-index: 999;
+      }
+
+      .nav-inner{
+        margin:0 auto;
+        width:90%;
+        padding:20px;
+       
+      }
+      .menu-main-container{
+        width: 100%;
+        padding-top: -10px;
+      
+      }
+
+      ul#menu-main{
+       
+      
+      
+      }
+      
+        ul#menu-main li{
+         
+          
+          list-style: none;
+          float:left;
+          margin-left:1%;
+         
+        }
+
+
+       ul#menu-main li a{
+        font-size: 28px;
+        text-decoration: none;
+        padding:10px;
+      /*  color:#B0E57C;*/
+        color:black;
+      
+       }  
+
+        ul#menu-main a:hover {
+        border-bottom: 1px solid #B0E57C;
+
+        }
+
+
+
+       .band{
+        min-height: 200px;
+        width:100%;
+        color:white;
+        background: #182d3b;
+        padding:5% 10%;
+
+      
+      }
+
+
+
+
+      .categoryLabel a{
+       /* background: black;*/
+        padding:1%;
+        color:gray;
+        text-align: right;
+        display:block;
+        /*width:140px;*/
+        float:right;
+        border-bottom:1px solid #B0E57C;
+      }
+
+      .timeStamp{
+        font-size: 10px;
+        color:gray;
+        font-style: italic;
+      }
+
+      .socialStickers{
+        float:right;
+        display:inline;
+        padding-top:10px;
+      }
+
+      #logo{
+        float:right;
+        width:180px;
+        height:80px;
+      }
+      #logo a{
+   
+        padding-top:5%;
+        display: block;
+        width:100%;
+        height:100%;
+
+        text-decoration: none;
+        text-indent: -10000px;
+        background: url('images/logo.png') no-repeat 0 0;
+      
+  /*      -moz-transition: opacity 0.2s ease-out;
+        -webkit-transition: opacity 0.2s ease-out;
+        transition: opacity 0.2s ease-out;
+      */
+
+      }
+      #logo a:hover{
+      /*  filter: alpha(opacity=50);
+        opacity: .50;
+        zoom: 1;*/
+      }
+
+   
+
+      /* wordpress image alignment*/
+      img.alignright {float:right; margin:0 0 1em 1em}
+      img.alignleft {float:left; margin:0 1em 1em 0}
+      img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+      .alignright {float:right; }
+      .alignleft {float:left; }
+      .aligncenter {display: block; margin-left: auto; margin-right: auto}
+      
+    
+
+      .post {
+        background: white;
+        width:80%;
+        margin: 1% auto;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 2px 2px 5px #7D7D7D;
+        border-radius:3px;
+        font-size:16px;
+        line-height: 1.4em;
+      }
+
+      .preview{
+         max-height: 300px;
+      }
+
+
+
+      .full{
+        padding:5% 10%;
+        margin: 0 auto;
+       
+      }
+
+    
+
+      .featuredImageContainer{
+       overflow: hidden;
+       width:40%;
+       max-height:300px;
+       float:left;
+       margin-right:2%; 
+      } 
+      
+      .attachment-post-thumbnail{
+
+     
+      }
+
+      .footer{
+        padding-top:5%;
+        margin:0 auto;
+        text-align: center;
+        background: #182d3b;
+        color:white;
+        min-height: 200px;
+      }
+
+      .flag{
+       /* background: url(images/flag.svg) no-repeat center;*/
+        width:40px;
+        height: 40px;
+
+      }
+
+      .button{
+        background: #182d3b;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        display: inline-block;
+        white-space: nowrap;
+        border: 0;
+        padding: 20px 40px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        text-decoration: none;
+
+  
+
+      }
+
+      .arrow{
+        margin-top: 2px;
+          padding:3%;
+         font-size:21px;
+      }
+
+/*      .hrlogo{
+    
+      }
+*/
+  
+
+      /* Then we use media queries for targeting other resolutions */
+
+      /* Portrait tablet and small desktops */
+      @media (max-width: 940px) {
+        body {
+       
+        }
+      }
+       
+      /* Landscape phone to portrait tablet */
+      @media (max-width: 767px) {
+        body {
+       
+        }
+     
+      }
+       
+      /* Landscape phones and down */
+      @media (max-width: 480px) {
+        body {
+         
+        }
+        
+   
+      }
