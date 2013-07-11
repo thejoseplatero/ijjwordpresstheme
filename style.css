@@ -187,17 +187,10 @@ html[xmlns] .clearfix {
         text-decoration: none;
         text-indent: -10000px;
         background: url('images/logo.png') no-repeat 0 0;
-      
-  /*      -moz-transition: opacity 0.2s ease-out;
-        -webkit-transition: opacity 0.2s ease-out;
-        transition: opacity 0.2s ease-out;
-      */
 
       }
       #logo a:hover{
-      /*  filter: alpha(opacity=50);
-        opacity: .50;
-        zoom: 1;*/
+
       }
 
    
@@ -215,6 +208,7 @@ html[xmlns] .clearfix {
       .post {
         background: white;
         width:80%;
+        padding:1%;
         margin: 1% auto;
         overflow: hidden;
         position: relative;
