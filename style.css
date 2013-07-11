@@ -208,7 +208,7 @@ html[xmlns] .clearfix {
       .post {
         background: white;
         width:80%;
-        padding:1%;
+
         margin: 1% auto;
         overflow: hidden;
         position: relative;
@@ -216,6 +216,10 @@ html[xmlns] .clearfix {
         border-radius:3px;
         font-size:16px;
         line-height: 1.4em;
+      }
+
+      .post p{
+        padding-right: 1%;
       }
 
       .preview{
