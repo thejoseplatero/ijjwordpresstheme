@@ -38,9 +38,10 @@
                  <a href="<?php the_permalink(); ?>" class="button"> Read More <span class="arrow"></span> </a>
                 </div>
          </div>
-        </div>
+        
         <?php
           endwhile;
         ?>
+      </div>
 
 <?php get_footer(); ?>  
