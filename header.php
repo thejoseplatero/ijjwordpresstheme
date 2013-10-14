@@ -27,7 +27,7 @@
     <!-- twitter meta -->
     <meta name="twitter:card" content="i.james.jones">
     <meta name="twitter:site" content="http://www.ijamesjones.com">
-    <meta name="twitter:creator" content="@">
+    <meta name="twitter:creator" content="@ijamesjonesTO">
     <meta name="twitter:title" content="i.james.jones">
     <meta name="twitter:description" content="Was Born. Been Doing Things Since">
     <meta name="twitter:image" content="http://www.ijamesjones.com/assets/logo.jpg">
