@@ -1,11 +1,9 @@
   <div class="footer">
 
-        <span>&copy; Designed by @thejoseplatero<span>
+        <span>&copy; Designed by <a href="http://www.joseplatero.com" class="">joseplatero</a><span>
           <div class="flag">
             
           </div>
-
-
           <img src="<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian" class="flag">
   </div>
 

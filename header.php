@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     
     <!-- website meta -->
-    <meta name="description" content="i.james.jones"/>
+    <meta name="description" content="Was Born. Been Doing Things Since."/>
     <meta name= "keywords" content="media, culture, entertainment "/>
     <meta name="author" content="i.james.jones"/>
     
