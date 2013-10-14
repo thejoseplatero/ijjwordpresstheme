@@ -43,7 +43,7 @@ html[xmlns] .clearfix {
         font-family: 'Raleway', sans-serif;
         line-height: 1.2em;
         color:black;
-       background: url(images/gplaypattern.png);
+        background: url(images/gplaypattern.png);
 
       }
 
@@ -63,11 +63,8 @@ html[xmlns] .clearfix {
         min-height: 600px;
         width:100%;
         background: url(images/ian.jpg) no-repeat;
-      
-        background-position: 75% -135%;
-          background-size: cover;
-     /*   margin: 0 auto;*/
-
+        background-position: 10% -200%;
+        background-size: cover;
       }
 
       .contentWrapper{
@@ -97,27 +94,21 @@ html[xmlns] .clearfix {
         margin:0 auto;
         width:90%;
         padding:20px;
-       
       }
+
       .menu-main-container{
         width: 100%;
-        padding-top: -10px;
-      
+        padding-top: -10px; 
       }
 
       ul#menu-main{
-       
-      
-      
+          
       }
       
         ul#menu-main li{
-         
-          
           list-style: none;
           float:left;
           margin-left:1%;
-         
         }
 
 
@@ -125,14 +116,11 @@ html[xmlns] .clearfix {
         font-size: 28px;
         text-decoration: none;
         padding:10px;
-      /*  color:#B0E57C;*/
         color:black;
-      
        }  
 
         ul#menu-main a:hover {
         border-bottom: 1px solid #B0E57C;
-
         }
 
 
@@ -143,20 +131,13 @@ html[xmlns] .clearfix {
         color:white;
         background: #182d3b;
         padding:5% 10%;
-
-      
       }
 
-
-
-
       .categoryLabel a{
-       /* background: black;*/
         padding:1%;
         color:gray;
         text-align: right;
         display:block;
-        /*width:140px;*/
         float:right;
         border-bottom:1px solid #B0E57C;
       }
@@ -179,7 +160,6 @@ html[xmlns] .clearfix {
         height:80px;
       }
       #logo a{
-   
         padding-top:5%;
         display: block;
         width:100%;
@@ -187,8 +167,8 @@ html[xmlns] .clearfix {
         text-decoration: none;
         text-indent: -10000px;
         background: url('images/logo.png') no-repeat 0 0;
-
       }
+
       #logo a:hover{
 
       }
@@ -230,7 +210,6 @@ html[xmlns] .clearfix {
       .full{
         padding:5% 10%;
         margin: 0 auto;
-       
       }
 
     
