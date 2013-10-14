@@ -19,7 +19,7 @@
     <meta property="og:title" content"<?php bloginfo('name'); ?>" />
     <meta property="og:url" content="http://www.ijamesjones.com"/>
     <meta property="og:description" content="Was Born. Been Doing Things Since."/>
-    <meta property="og:image" content="http://www.ijamesjones.com/assets/logo.jpg"/>
+    <meta property="og:image" content="http://www.ijamesjones.com/assets/logo.png"/>
     
     <!-- facebook comments integration -->
     <meta property='fb:app_id' content='297600557043316' />  
@@ -30,7 +30,7 @@
     <meta name="twitter:creator" content="@ijamesjonesTO">
     <meta name="twitter:title" content="i.james.jones">
     <meta name="twitter:description" content="Was Born. Been Doing Things Since">
-    <meta name="twitter:image" content="http://www.ijamesjones.com/assets/logo.jpg">
+    <meta name="twitter:image" content="http://www.ijamesjones.com/assets/logo.png">
 
     <!-- responsive  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
