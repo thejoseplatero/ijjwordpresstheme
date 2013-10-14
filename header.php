@@ -18,19 +18,19 @@
     <!-- open graph meta -->
     <meta property="og:title" content"<?php bloginfo('name'); ?>" />
     <meta property="og:url" content="http://www.ijamesjones.com"/>
-    <meta property="og:description" content="..."/>
-    <meta property="og:image" content="http://www.ijamesjones.com/assets/ian.jpg"/>
+    <meta property="og:description" content="Was Born. Been Doing Things Since."/>
+    <meta property="og:image" content="http://www.ijamesjones.com/assets/logo.jpg"/>
     
     <!-- facebook comments integration -->
     <meta property='fb:app_id' content='297600557043316' />  
 
     <!-- twitter meta -->
-    <meta name="twitter:card" content=".... ">
-    <meta name="twitter:site" content="@i">
+    <meta name="twitter:card" content="i.james.jones">
+    <meta name="twitter:site" content="http://www.ijamesjones.com">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:title" content="i.james.jones">
-    <meta name="twitter:description" content="...">
-    <meta name="twitter:image" content="http://www.ijamesjones.com/assets/ian.jpg">
+    <meta name="twitter:description" content="Was Born. Been Doing Things Since">
+    <meta name="twitter:image" content="http://www.ijamesjones.com/assets/logo.jpg">
 
     <!-- responsive  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
